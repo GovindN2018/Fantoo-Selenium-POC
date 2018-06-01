@@ -17,7 +17,7 @@ namespace AutoTestFramework.Test_Scenarios
         {
             NavigateTo.NavigateToContactUsPage();
 
-            Actions.ClearContactUsForm();//I made this change just now
+            Actions.ClearContactUsForm();
 
             Actions.FillContactUsForm(Config.FormEntries.ValidEntries.FirstName, Config.FormEntries.ValidEntries.LastName,
                                       Config.FormEntries.ValidEntries.CompanyName, Config.FormEntries.ValidEntries.EmailAddress,

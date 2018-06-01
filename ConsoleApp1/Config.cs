@@ -11,7 +11,7 @@ namespace AutoTestFramework
             public static class ValidEntries
             {
                 public static string FirstName = "DummyFirstName";
-                public static string LastName = "DummyastName";
+                public static string LastName = "DummyLastName";
                 public static string CompanyName = "Fantoo Ltd.";
                 public static string EmailAddress = "Test@fantoo.net";
                 public static string PhoneNumber = "0123456789";

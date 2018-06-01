@@ -10,10 +10,10 @@ namespace AutoTestFramework
         {
             public static class ValidEntries
             {
-                public static string FirstName = "Govind";
-                public static string LastName = "Nayak";
+                public static string FirstName = "DummyFirstName";
+                public static string LastName = "DummyastName";
                 public static string CompanyName = "Fantoo Ltd.";
-                public static string EmailAddress = "Govind@fantoo.net";
+                public static string EmailAddress = "Test@fantoo.net";
                 public static string PhoneNumber = "0123456789";
                 public static string Subject1 = "I’d like to find out more about your product";
                 public static string Subject2 = "I’d like to become a partner";
@@ -52,10 +52,10 @@ namespace AutoTestFramework
                 {
                     public static string BlankField = ""; // expected warning: "This is a required field"
                     public static string OnlySpaceCharacters = "     "; // expected warning: "This is a required field"
-                    public static string LocalPartWithBlankSpace = "Gov ind@fantoo.net"; // expected warning: "You have not given a correct e-mail address"
-                    public static string MissingDomainPart = "abc"; // expected warning: "You have not given a correct e-mail address"
+                    public static string LocalPartWithBlankSpace = "Te st@fantoo.net"; // expected warning: "You have not given a correct e-mail address"
+                    public static string MissingDomainPart = "Test"; // expected warning: "You have not given a correct e-mail address"
                     public static string MissingLocalPart = "@fantoo.net"; // expected warning: "You have not given a correct e-mail address"
-                    public static string MissingAtSymbol = "abcfantoo.net"; // expected warning: "You have not given a correct e-mail address"
+                    public static string MissingAtSymbol = "Testfantoo.net"; // expected warning: "You have not given a correct e-mail address"
                 }
 
                 //public static class PhoneNumber
